@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+#post_btn{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    background-color: pink;
+    font-size: 20px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all .1s ease-out;
+    border: 2px solid white;
+}
+
+#post_btn:hover{
+    background-color: lightpink;
+    border: 2px solid red;
+    transition: all .1s ease-out;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+#index_btn {
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 20px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all .1s ease-out;
+    border: 2px solid white;
+}
+
+#index_btn:hover {
+    background-color: lightblue;
+    border: 2px solid blue;
+    transition: all .1s ease-out;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}

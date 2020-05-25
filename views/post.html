@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type="text/css" href="/public/css/post.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="index_btn">
+        <a href="/">返回主页</a>
+    </div>
+    <form action="/comment" method="GET">
+        <label for="input_name">名字</label>
+        <input type="text" required id="input_name" name="name">
+
+        <label for="msg">留言内容</label>
+        <textarea id="msg" cols="30" rows="10" required name="msg"></textarea>
+
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>

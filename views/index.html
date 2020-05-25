@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel='stylesheet' type="text/css" href="/public/css/index.css">
+</head>
+
+<body>
+    <h1>留言板</h1>
+    <div id="post_btn">
+        <a href="/post">发表留言</a>
+    </div>
+    <div>
+        <ul class="list">
+            {{each msgs}}
+            <li class="item">{{$value.name}}说：{{$value.msg}}<span style="float: right;"> {{$value.date}}</span></li>
+            {{/each}}
+        </ul>
+    </div>
+</body>
+
+</html>
